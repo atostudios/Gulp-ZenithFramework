@@ -4,7 +4,7 @@
 
 ### Alex Ilhan has written a guide on using Sass in email!
 
-Find out how to start using this template by going to Alex Ilhan[Litmus Community guide](https://litmus.com/community/learning/23-getting-started-with-sass-in-email).
+Find out how to start using this template by going to Alex Ilhan [Litmus Community guide](https://litmus.com/community/learning/23-getting-started-with-sass-in-email).
 
 ### What is Zenith?
 

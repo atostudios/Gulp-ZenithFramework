@@ -1,8 +1,8 @@
-# Zenith
+## Alex Ilhan's Zenith Framework modified for use with Gulp on NodeJS. This version includes CSS Autoprefixer and BrowserSync for automatic browser refresh on file save.
 
-### I've written a guide on using Sass in email!
+### Alex Ilhan has written a guide on using Sass in email!
 
-Find out how to start using this template by going to my [Litmus Community guide](https://litmus.com/community/learning/23-getting-started-with-sass-in-email).
+Find out how to start using this template by going to Alex Ilhan[Litmus Community guide](https://litmus.com/community/learning/23-getting-started-with-sass-in-email).
 
 ### What is Zenith?
 
@@ -19,26 +19,18 @@ Zenith is an email framework made easy using Sass.
 
 ### Usage
 
-#### Compass
-To get started, you'll need Sass and Compass.
-
-Install compass:
 ```
-$ gem update --system
-$ gem install compass
+$ npm install
 ```
 
-If you need more information about compass installation, please refer to its [documentation](http://compass-style.org/install/).
+### When building
 
-#### Inlining
-
-To inline, I'm using [premailer](https://github.com/premailer/premailer/).
-
-Once you have it installed, you just need to run the .rb ruby file I've set up by putting the following into your terminal/command line application
 ```
-$ ruby config.rb
+$ gulp dev
 ```
-
-This takes your ```email.html``` from your templates folder and saves it into ```email.html``` in your inlined folder. 
+### When finished
+```
+$ gulp
+```
 
 

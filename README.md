@@ -32,6 +32,8 @@ $ npm install
 ```
 $ gulp dev
 ```
+Make your CSS changes in the Sass folder, and HTML changes in the src folder. Your compiled files (Inlined styled HTML with autoprefixed CSS) will be presesnt in the dist folder.
+
 ### When finished
 ```
 $ gulp

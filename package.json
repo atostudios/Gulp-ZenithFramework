@@ -18,16 +18,15 @@
   "author": "Anthony O'Neill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atostudios/ZenithFramework/issues"
+    "url": "https://github.com/atostudios/Gulp-ZenithFramework/issues"
   },
-  "homepage": "https://github.com/atostudios/ZenithFramework#readme",
+  "homepage": "https://github.com/atostudios/Gulp-ZenithFramework#readme",
   "devDependencies": {
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-inline-css": "^3.0.0",
     "gulp-sass": "^2.1.0",
-    "gulp-style-inject": "0.0.3",
-    "html-autoprefixer": "^0.3.7"
+    "gulp-style-inject": "0.0.3"
   }
 }

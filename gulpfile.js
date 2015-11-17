@@ -12,12 +12,12 @@ gulp.task('inliner',['style'], function () {
         	removeStyleTags: false,
         	}))
         .pipe(gulp.dest('./dist'));
-});
+	});
 
 gulp.task('style',['autoprefixer'], function() {
 	return gulp.src("./src/index.html")
-    .pipe(styleInject())
-    .pipe(gulp.dest("./dist"));
+	    .pipe(styleInject())
+	    .pipe(gulp.dest("./dist"));
 	});
 
 gulp.task('autoprefixer', ['sass'], function() {
@@ -30,7 +30,7 @@ gulp.task('sass', function() {
 	return gulp.src('./sass/email.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('./stylesheets'))
-});
+	});
 
 gulp.task('browser-sync', function() {
     browserSync.init({

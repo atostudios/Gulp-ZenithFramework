@@ -1,4 +1,6 @@
-## Alex Ilhan's Zenith Framework modified for use with Gulp on NodeJS. This version includes CSS Autoprefixer and BrowserSync for automatic browser refresh on file save.
+## Alex Ilhan's Zenith Framework modified for use with Gulp on NodeJS. 
+
+#### This version includes CSS Autoprefixer and BrowserSync for automatic browser refresh on file save.
 
 ### Alex Ilhan has written a guide on using Sass in email!
 

@@ -18,7 +18,7 @@ Zenith is an email framework made easy using Sass.
 * Logical Sass statements to make life easier
 * Automatically inline styles
 * Automatically autoprefix styles
-* Automatically refresh browser on save
+* Automatically refreshes browser on save
 
 
 ### Usage

@@ -1,0 +1,33 @@
+{
+  "name": "zenith-framework-gulp",
+  "version": "0.0.1",
+  "description": "NodeJs version of Sass for email ZenithFramework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atostudios/ZenithFramework.git"
+  },
+  "keywords": [
+    "SCSS",
+    "Email",
+    "Gulp"
+  ],
+  "author": "Anthony O'Neill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atostudios/ZenithFramework/issues"
+  },
+  "homepage": "https://github.com/atostudios/ZenithFramework#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-style-inject": "0.0.3",
+    "html-autoprefixer": "^0.3.7"
+  }
+}

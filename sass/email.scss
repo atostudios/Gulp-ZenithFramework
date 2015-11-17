@@ -1,9 +1,7 @@
-@import "variables"; /* Import in our variables! */
-@import "mobile-grid"; /* Our mobile grid */
-@import "client-fixes"; /* Our client fixes for hotmail, etc */
-@import "Typography"; /* Control all typography */
-
-
+@import "_variables.scss"; /* Import in our variables! */
+@import "_mobile-grid.scss"; /* Our mobile grid */
+@import "_client-fixes.scss"; /* Our client fixes for hotmail, etc */
+@import "_typography.scss"; /* Control all typography */
 
 /* -------------------------------------------
         Style our body

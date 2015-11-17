@@ -12,3 +12,9 @@
 
 # Ignore DS_Store
 .DS_Store
+
+dist
+
+src/email.css
+
+node_modules

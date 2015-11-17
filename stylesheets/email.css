@@ -25,206 +25,126 @@ responsive? Write either "yes" or "no"
 Grid stuff, don't touch!
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  /* line 11, ../sass/_mobile-grid.scss */
   *[class="full-container"] {
-    padding: 10px;
-  }
-}
-/* line 20, ../sass/_mobile-grid.scss */
+    padding: 10px; } }
+
 *[class="full-width"] {
-  width: 100%;
-}
-@media only screen and (max-width: 600px) {
-  /* line 20, ../sass/_mobile-grid.scss */
-  *[class="full-width"] {
-    width: 100% !important;
-    height: auto;
-  }
-}
+  width: 100%; }
+  @media only screen and (max-width: 600px) {
+    *[class="full-width"] {
+      width: 100% !important;
+      height: auto; } }
 
-/* line 28, ../sass/_mobile-grid.scss */
 *[class="full-width-container"] {
-  width: 640px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 28, ../sass/_mobile-grid.scss */
-  *[class="full-width-container"] {
-    width: 100% !important;
-    height: auto;
-  }
-}
+  width: 640px; }
+  @media only screen and (max-width: 600px) {
+    *[class="full-width-container"] {
+      width: 100% !important;
+      height: auto; } }
 
-/* line 36, ../sass/_mobile-grid.scss */
 *[class="width-half"] {
-  width: 290px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 36, ../sass/_mobile-grid.scss */
-  *[class="width-half"] {
-    width: 100% !important;
-    height: auto;
-  }
-}
+  width: 290px; }
+  @media only screen and (max-width: 600px) {
+    *[class="width-half"] {
+      width: 100% !important;
+      height: auto; } }
 
-/* line 44, ../sass/_mobile-grid.scss */
 *[class="width-third"] {
-  width: 186.66667px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 44, ../sass/_mobile-grid.scss */
-  *[class="width-third"] {
-    width: 100% !important;
-    height: auto;
-  }
-}
+  width: 186.66667px; }
+  @media only screen and (max-width: 600px) {
+    *[class="width-third"] {
+      width: 100% !important;
+      height: auto; } }
 
-/* line 52, ../sass/_mobile-grid.scss */
 *[class="width-two-thirds"] {
-  width: 373.33333px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 52, ../sass/_mobile-grid.scss */
-  *[class="width-two-thirds"] {
-    width: 100% !important;
-    height: auto;
-  }
-}
+  width: 373.33333px; }
+  @media only screen and (max-width: 600px) {
+    *[class="width-two-thirds"] {
+      width: 100% !important;
+      height: auto; } }
 
-/* line 60, ../sass/_mobile-grid.scss */
 *[class="width-quarter"] {
-  width: 135px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 60, ../sass/_mobile-grid.scss */
-  *[class="width-quarter"] {
-    width: 100% !important;
-    height: auto;
-  }
-}
+  width: 135px; }
+  @media only screen and (max-width: 600px) {
+    *[class="width-quarter"] {
+      width: 100% !important;
+      height: auto; } }
 
-/* line 68, ../sass/_mobile-grid.scss */
 *[class="spacer"] {
-  width: 20px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 68, ../sass/_mobile-grid.scss */
-  *[class="spacer"] {
-    display: none;
-  }
-}
+  width: 20px; }
+  @media only screen and (max-width: 600px) {
+    *[class="spacer"] {
+      display: none; } }
 
-/* line 74, ../sass/_mobile-grid.scss */
 *[class="mobile-spacer"] {
-  width: 20px;
-}
-@media only screen and (max-width: 600px) {
-  /* line 74, ../sass/_mobile-grid.scss */
-  *[class="mobile-spacer"] {
-    height: 20px;
-  }
-}
+  width: 20px; }
+  @media only screen and (max-width: 600px) {
+    *[class="mobile-spacer"] {
+      height: 20px; } }
 
-/* line 80, ../sass/_mobile-grid.scss */
 *[class="container-mob"] {
-  width: 100%;
-}
-@media only screen and (max-width: 600px) {
-  /* line 80, ../sass/_mobile-grid.scss */
-  *[class="container-mob"] {
-    width: 100% !important;
-    height: auto;
-    margin-bottom: 20px;
-  }
-}
+  width: 100%; }
+  @media only screen and (max-width: 600px) {
+    *[class="container-mob"] {
+      width: 100% !important;
+      height: auto;
+      margin-bottom: 20px; } }
 
 /* Our mobile grid */
-/* line 1, ../sass/_client-fixes.scss */
 .ExternalClass {
-  line-height: 100%;
-}
-/* line 3, ../sass/_client-fixes.scss */
-.ExternalClass p {
-  line-height: 100%;
-}
-/* line 6, ../sass/_client-fixes.scss */
-.ExternalClass span {
-  line-height: 100%;
-}
-/* line 9, ../sass/_client-fixes.scss */
-.ExternalClass font {
-  line-height: 100%;
-}
-/* line 12, ../sass/_client-fixes.scss */
-.ExternalClass td {
-  line-height: 100%;
-}
-/* line 15, ../sass/_client-fixes.scss */
-.ExternalClass div {
-  line-height: 100%;
-}
+  line-height: 100%; }
+  .ExternalClass p {
+    line-height: 100%; }
+  .ExternalClass span {
+    line-height: 100%; }
+  .ExternalClass font {
+    line-height: 100%; }
+  .ExternalClass td {
+    line-height: 100%; }
+  .ExternalClass div {
+    line-height: 100%; }
 
-/* line 19, ../sass/_client-fixes.scss */
 table td {
-  border-collapse: collapse;
-}
+  border-collapse: collapse; }
 
-/* line 23, ../sass/_client-fixes.scss */
 .yshortcuts a {
-  border-bottom: none !important;
-}
+  border-bottom: none !important; }
 
 /* Our client fixes for hotmail, etc */
-/* line 1, ../sass/_Typography.scss */
 span[class="paragraph"] {
   font-size: 16px;
   font-family: Arial, sans-serif;
-  color: #666666;
-}
+  color: #666666; }
 
-/* line 7, ../sass/_Typography.scss */
 span[class="heading"] {
   font-size: 24px;
   font-family: Georgia;
-  color: blue;
-}
+  color: #0000ff; }
 
 /* Control all typography */
 /* -------------------------------------------
         Style our body
  -------------------------------------------- */
-/* line 11, ../sass/email.scss */
 body {
-  background-color: white;
+  background-color: #ffffff;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /* -------------------------------------------
         Colour stuff
 -------------------------------------------- */
-/* line 22, ../sass/email.scss */
 .color-background.red {
-  background-color: white;
-}
+  background-color: #fff; }
 
 /* -------------------------------------------
         Media Queries
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  /* line 33, ../sass/email.scss */
   *[class="mobile-hide"] {
-    display: none !important;
-  }
-
-  /* line 36, ../sass/email.scss */
+    display: none !important; }
   *[class="mobile-stack"] {
-    display: block !important;
-  }
-
-  /* line 39, ../sass/email.scss */
+    display: block !important; }
   *[class="mob-column"] {
     float: none !important;
     width: 100% !important;
-    height: auto;
-  }
-}
+    height: auto; } }
